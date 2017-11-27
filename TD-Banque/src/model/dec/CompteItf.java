@@ -1,4 +1,3 @@
-
 package model.dec;
 
 public interface CompteItf
@@ -9,7 +8,7 @@ public interface CompteItf
 
     double getBalance();
 
-    void setBalance(double newBalance);
+    void setBalance(double nouvelleBalance);
 
-    double deposit(double amount);
+    double deposit(double montant);
 }
